@@ -81,6 +81,7 @@ jobs:
         id: plan
         run: |
           terraform plan \
+            -refresh=false \
             -var="db_password=${{ secrets.DEV_DB_PASSWORD }}" \
             -var="jwt_secret=${{ secrets.DEV_JWT_SECRET }}" \
             -var="github_org=${{ vars.GH_ORG }}" \
