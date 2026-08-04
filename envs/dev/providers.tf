@@ -20,6 +20,10 @@ terraform {
 provider "aws" {
   region = "us-east-1"
 
+  endpoints {
+    sts = "https://sts.us-east-1.amazonaws.com"
+  }
+
   default_tags {
     tags = {
       Project   = "pharma"
