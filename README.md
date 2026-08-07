@@ -4,6 +4,7 @@
 
 This guide walks you through setting up the zen-pharma infrastructure on your own AWS account from scratch using this repository. Follow each section in order.
 
+This is added by nayak-code
 ---
 
 ## Table of Contents
